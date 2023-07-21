@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "champ";
+  src: url("fonts/Delm-SemiLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "clim";
+  src: url("fonts/Delm-SemiLightItalic.ttf") format("truetype");
+}
+
+nav {
+  background-color: black;
+  height: 40px; /* adjust this value to match the height of your navbar */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* opacity: 0.8; set the opacity value to your preference */
+}
+
+.logo img {
+  max-height: 50px;
+  width: auto;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.navbuttons {
+  font-size: 20px;
+  margin-right: 0px;
+  float: none;
+  font-family: "champ", sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  float: right;
+}
+
+nav li {
+  float: none;
+  display: inline-block;
+}
+
+nav li.right {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.right {
+  float: right;
+  font-size: 15px;
+}
+
+body {
+  background-image: url("C:\Users\PC\Desktop\ONLINE RENT A CAR\pics\mercedesi2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "champ", Arial, sans-serif;
+}
+
+.bodypic1 img {
+  position: relative;
+  max-width: 100%;
+}
+
+.textOverPic {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  color: #fff;
+  z-index: 1;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-right: 50px;
+}
+
+.textOverPic h3 {
+  font-size: 25px;
+  font-family: "champ", sans-serif;
+}
+
+.textOverPic h1 {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.textOverPic p {
+  font-size: 25px;
+  margin-top: 1rem;
+  padding-bottom: 10px;
+}
+
+.textOverPic {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+  /* background-color: rgba(0, 0, 0, 0.158); */
+  padding-bottom: 600px;
+}
+
+.Example-btn7 {
+  font-family: "clim", sans-serif;
+  font-weight: 0;
+  font-size: 25px;
+  color: #fff;
+  background-color: #ff8000;
+  padding: 5px 5px;
+  width: 200px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 0px;
+  text-decoration: none;
+  transition: 1000ms;
+  transform: translateY(0);
+}
+
+.Example-btn7:hover {
+  text-decoration: none;
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #ff8000e2;
+  color: #000000;
+  border: none;
+}
+
+.textOverPic p {
+  font-family: "clim", sans-serif;
+}
+
+.fundi {
+  position: relative;
+  text-align: center;
+}
+
+.txt {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  color: #b0afb4;
+}
+
+.titulli {
+  text-align: center;
+  padding-top: 85px;
+  font-size: 40px;
+}
+
+.p {
+  text-align: center;
+  color: rgb(122, 122, 122);
+  font-size: small;
+  padding-top: 16px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  padding-left: 120px;
+  margin: 0 10px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  position: absolute; /* set icon to absolute positioning */
+  top: 37px; /* set icon to be 10px from the top of the parent element */
+  left: 10px; /* set icon to be 10px from the left of the parent element */
+}
+
+.icon2 {
+  width: 25px;
+  height: 25px;
+  position: absolute; /* set icon to absolute positioning */
+  top: 37px; /* set icon to be 10px from the top of the parent element */
+  left: 10px; /* set icon to be 10px from the left of the parent element */
+}
+
+.icon3 {
+  width: 25px;
+  height: 25px;
+  position: absolute; /* set icon to absolute positioning */
+  top: 37px; /* set icon to be 10px from the top of the parent element */
+  left: 10px; /* set icon to be 10px from the left of the parent element */
+}
+
+.block {
+  width: 400px;
+  position: relative;
+  height: 130px;
+  background-color: #f9faff;
+  margin-left: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 170px;
+}
+
+.p1 {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.txt3 {
+  font-size: 18px;
+  padding-top: 18px;
+  padding-left: 55px;
+}
+
+.p2 {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.txt4 {
+  font-size: 18px;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.p3 {
+  font-size: 20px;
+}
+
+.txt5 {
+  font-size: 18px;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.ft {
+  margin-left: 700px;
+  font-family: champ;
+  font-size: 10px;
+}
